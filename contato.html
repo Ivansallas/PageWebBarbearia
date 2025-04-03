@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contatos - Barbearia Luiz</title>
+</head>
+<body>
+    <header>
+        <div class="caixa">
+            <h1><img src="imagens/logo.png" alt="imagem logo"></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="contato.html">Contatos</a></li>
+        </div>
+    </header>
+    <main>
+        <form action="input-dados">
+            <h2>Contato</h2>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome" class="input-padrao">
+
+            <label for="Sobrenome">Sobrenome:</label>
+            <input type="text" id="sobrenome" name="sobrenome" placeholder="Digite seu sobrenome" class="input-padrao">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu email"class="input-padrao">
+
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone" placeholder="Digite seu telefone"class="input-padrao">
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Digite sua mensagem" class="input-padrao"></textarea>
+            
+            <div>
+                <p>Qual a forma de contato?</p>
+                <label for="radio-Email"><input type="radio" name="contato" value="email" id="radio-Email">Email</label>                
+                
+                <label for="radio-Telefone"> <input type="radio" name="contato" id="radio-Telefone">Telefone</label>               
+                
+                <label for="radio-whatsapp"><input type="radio" name="contato" id="radio-whatsapp">WhatsApp</label>
+                
+            </div>
+            <div>
+                <p>Qual horário prefere ser atendido?</p>
+                <select name="horario" id="horario">
+                    <option value="Manhã">Manhã</option>
+                    <option value="Tarde">Tarde</option>
+                    <option value="Noite">Noite</option>
+                </select>
+            </div>
+            <label class="checkbox"><input type="checkbox">Gostaria de receber nossas email?</label>
+            <button type="submit">Enviar Formulario</button>
+        </form>
+    </main>
+   <footer>
+    <img src="imagens/logo-branco.png" alt="imagem de logo rodape">
+        <div class="copyrigth">
+            <p>Barbearia do Luiz - Todos os direitos reservados</p>
+            <p>Endereço: Rua dos Bobos, nº 0 - Bairro: Jardim dos Tolos - Cidade: São Paulo - SP</p>
+        </div>    
+  </footer>
+</body>
+</html>
