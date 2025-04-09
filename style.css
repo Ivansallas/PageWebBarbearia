@@ -21,7 +21,7 @@ nav {
   top: 0;
 }
 nav li {
-  display: inline;
+  display: block;
   margin: 0 0 0 15px;
 }
 nav a {
@@ -172,8 +172,38 @@ form label, form p {
 .checkbox {
     margin: 20px 0;
 }
-
-
+.utensilios{
+  width: 120px;
+  float: left;
+  margin: 0 20px 20px 0;
+  border-radius: 10px;
+}
+.video{
+  width: 560px;
+  margin: 2em auto;  
+}
+.mapa{
+  padding: 3em 0;
+  background: linear-gradient(#fefefe, #888888);
+}
+.mapa p{
+  margin: 0 0 2em;
+  text-align: center;
+}
+.itens-beneficios{
+  width: 100%;
+  display: inline-block;
+  vertical-align: top;
+}
+.itens{
+  line-height: 1.5;
+}
+.itens::before{
+  content: "✅";
+}
+.itens:first-child{
+  font-weight: bold;
+}
 
 footer {
   text-align: center;
