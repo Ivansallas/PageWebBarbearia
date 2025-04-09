@@ -35,7 +35,7 @@
             <label for="mensagem">Mensagem:</label>
             <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Digite sua mensagem" class="input-padrao"></textarea>
             
-            <div>
+            <div class="contato">
                 <p>Qual a forma de contato?</p>
                 <label for="radio-Email"><input type="radio" name="contato" value="email" id="radio-Email">Email</label>                
                 
@@ -44,7 +44,7 @@
                 <label for="radio-whatsapp"><input type="radio" name="contato" id="radio-whatsapp">WhatsApp</label>
                 
             </div>
-            <div>
+            <div class="horario">
                 <p>Qual horário prefere ser atendido?</p>
                 <select name="horario" id="horario">
                     <option value="Manhã">Manhã</option>
@@ -53,6 +53,9 @@
                 </select>
             </div>
             <label class="checkbox"><input type="checkbox">Gostaria de receber nossas email?</label>
+            <label class="checkbox"><input type="checkbox">Gostaria de receber nossas promoções?</label>
+            <label class="checkbox"><input type="checkbox">Gostaria de receber nossas novidades?</label>
+            <label class="checkbox"><input type="datetime-local">Gostaria de receber nossas noticias?</label>
             <button type="submit">Enviar Formulario</button>
         </form>
     </main>
